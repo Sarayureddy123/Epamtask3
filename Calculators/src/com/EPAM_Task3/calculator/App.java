@@ -4,7 +4,6 @@ import java.util.*;
 
 
 
-
 /**
  * Hello world!
  *
@@ -14,7 +13,8 @@ public class App
     public static void main( String[] args )
     {
     	Bussiness obj=new Bussiness();
-        Scanner scan=new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scan=new Scanner(System.in);
         System.out.println("Simple Calculator");
         System.out.println("Enter two numbers");
         int num1=scan.nextInt();
